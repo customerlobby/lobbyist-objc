@@ -1,0 +1,424 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		55FCF91517F5385A0059B937 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 55FCF91417F5385A0059B937 /* Foundation.framework */; };
+		55FCF91A17F5385A0059B937 /* lobbyist_objc.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 55FCF91917F5385A0059B937 /* lobbyist_objc.h */; };
+		55FCF91C17F5385A0059B937 /* lobbyist_objc.m in Sources */ = {isa = PBXBuildFile; fileRef = 55FCF91B17F5385A0059B937 /* lobbyist_objc.m */; };
+		55FCF92317F5385A0059B937 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 55FCF92217F5385A0059B937 /* XCTest.framework */; };
+		55FCF92417F5385A0059B937 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 55FCF91417F5385A0059B937 /* Foundation.framework */; };
+		55FCF92617F5385A0059B937 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 55FCF92517F5385A0059B937 /* UIKit.framework */; };
+		55FCF92917F5385A0059B937 /* liblobbyist-objc.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 55FCF91117F5385A0059B937 /* liblobbyist-objc.a */; };
+		55FCF92F17F5385A0059B937 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 55FCF92D17F5385A0059B937 /* InfoPlist.strings */; };
+		55FCF93117F5385A0059B937 /* lobbyist_objcTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 55FCF93017F5385A0059B937 /* lobbyist_objcTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		55FCF92717F5385A0059B937 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 55FCF90917F5385A0059B937 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 55FCF91017F5385A0059B937;
+			remoteInfo = "lobbyist-objc";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		55FCF90F17F5385A0059B937 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "include/$(PRODUCT_NAME)";
+			dstSubfolderSpec = 16;
+			files = (
+				55FCF91A17F5385A0059B937 /* lobbyist_objc.h in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		55FCF91117F5385A0059B937 /* liblobbyist-objc.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "liblobbyist-objc.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		55FCF91417F5385A0059B937 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		55FCF91817F5385A0059B937 /* lobbyist-objc-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "lobbyist-objc-Prefix.pch"; sourceTree = "<group>"; };
+		55FCF91917F5385A0059B937 /* lobbyist_objc.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = lobbyist_objc.h; sourceTree = "<group>"; };
+		55FCF91B17F5385A0059B937 /* lobbyist_objc.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = lobbyist_objc.m; sourceTree = "<group>"; };
+		55FCF92117F5385A0059B937 /* lobbyist-objcTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "lobbyist-objcTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		55FCF92217F5385A0059B937 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		55FCF92517F5385A0059B937 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
+		55FCF92C17F5385A0059B937 /* lobbyist-objcTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "lobbyist-objcTests-Info.plist"; sourceTree = "<group>"; };
+		55FCF92E17F5385A0059B937 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		55FCF93017F5385A0059B937 /* lobbyist_objcTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = lobbyist_objcTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		55FCF90E17F5385A0059B937 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				55FCF91517F5385A0059B937 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		55FCF91E17F5385A0059B937 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				55FCF92317F5385A0059B937 /* XCTest.framework in Frameworks */,
+				55FCF92617F5385A0059B937 /* UIKit.framework in Frameworks */,
+				55FCF92417F5385A0059B937 /* Foundation.framework in Frameworks */,
+				55FCF92917F5385A0059B937 /* liblobbyist-objc.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		55FCF90817F5385A0059B937 = {
+			isa = PBXGroup;
+			children = (
+				55FCF91617F5385A0059B937 /* lobbyist-objc */,
+				55FCF92A17F5385A0059B937 /* lobbyist-objcTests */,
+				55FCF91317F5385A0059B937 /* Frameworks */,
+				55FCF91217F5385A0059B937 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		55FCF91217F5385A0059B937 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				55FCF91117F5385A0059B937 /* liblobbyist-objc.a */,
+				55FCF92117F5385A0059B937 /* lobbyist-objcTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		55FCF91317F5385A0059B937 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				55FCF91417F5385A0059B937 /* Foundation.framework */,
+				55FCF92217F5385A0059B937 /* XCTest.framework */,
+				55FCF92517F5385A0059B937 /* UIKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		55FCF91617F5385A0059B937 /* lobbyist-objc */ = {
+			isa = PBXGroup;
+			children = (
+				55FCF91917F5385A0059B937 /* lobbyist_objc.h */,
+				55FCF91B17F5385A0059B937 /* lobbyist_objc.m */,
+				55FCF91717F5385A0059B937 /* Supporting Files */,
+			);
+			path = "lobbyist-objc";
+			sourceTree = "<group>";
+		};
+		55FCF91717F5385A0059B937 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				55FCF91817F5385A0059B937 /* lobbyist-objc-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		55FCF92A17F5385A0059B937 /* lobbyist-objcTests */ = {
+			isa = PBXGroup;
+			children = (
+				55FCF93017F5385A0059B937 /* lobbyist_objcTests.m */,
+				55FCF92B17F5385A0059B937 /* Supporting Files */,
+			);
+			path = "lobbyist-objcTests";
+			sourceTree = "<group>";
+		};
+		55FCF92B17F5385A0059B937 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				55FCF92C17F5385A0059B937 /* lobbyist-objcTests-Info.plist */,
+				55FCF92D17F5385A0059B937 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		55FCF91017F5385A0059B937 /* lobbyist-objc */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 55FCF93417F5385A0059B937 /* Build configuration list for PBXNativeTarget "lobbyist-objc" */;
+			buildPhases = (
+				55FCF90D17F5385A0059B937 /* Sources */,
+				55FCF90E17F5385A0059B937 /* Frameworks */,
+				55FCF90F17F5385A0059B937 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "lobbyist-objc";
+			productName = "lobbyist-objc";
+			productReference = 55FCF91117F5385A0059B937 /* liblobbyist-objc.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		55FCF92017F5385A0059B937 /* lobbyist-objcTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 55FCF93717F5385A0059B937 /* Build configuration list for PBXNativeTarget "lobbyist-objcTests" */;
+			buildPhases = (
+				55FCF91D17F5385A0059B937 /* Sources */,
+				55FCF91E17F5385A0059B937 /* Frameworks */,
+				55FCF91F17F5385A0059B937 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				55FCF92817F5385A0059B937 /* PBXTargetDependency */,
+			);
+			name = "lobbyist-objcTests";
+			productName = "lobbyist-objcTests";
+			productReference = 55FCF92117F5385A0059B937 /* lobbyist-objcTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		55FCF90917F5385A0059B937 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0500;
+				ORGANIZATIONNAME = "Customer Lobby";
+			};
+			buildConfigurationList = 55FCF90C17F5385A0059B937 /* Build configuration list for PBXProject "lobbyist-objc" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 55FCF90817F5385A0059B937;
+			productRefGroup = 55FCF91217F5385A0059B937 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				55FCF91017F5385A0059B937 /* lobbyist-objc */,
+				55FCF92017F5385A0059B937 /* lobbyist-objcTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		55FCF91F17F5385A0059B937 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				55FCF92F17F5385A0059B937 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		55FCF90D17F5385A0059B937 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				55FCF91C17F5385A0059B937 /* lobbyist_objc.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		55FCF91D17F5385A0059B937 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				55FCF93117F5385A0059B937 /* lobbyist_objcTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		55FCF92817F5385A0059B937 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 55FCF91017F5385A0059B937 /* lobbyist-objc */;
+			targetProxy = 55FCF92717F5385A0059B937 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		55FCF92D17F5385A0059B937 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				55FCF92E17F5385A0059B937 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		55FCF93217F5385A0059B937 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		55FCF93317F5385A0059B937 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		55FCF93517F5385A0059B937 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DSTROOT = /tmp/lobbyist_objc.dst;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "lobbyist-objc/lobbyist-objc-Prefix.pch";
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		55FCF93617F5385A0059B937 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DSTROOT = /tmp/lobbyist_objc.dst;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "lobbyist-objc/lobbyist-objc-Prefix.pch";
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		55FCF93817F5385A0059B937 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "lobbyist-objc/lobbyist-objc-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "lobbyist-objcTests/lobbyist-objcTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		55FCF93917F5385A0059B937 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "lobbyist-objc/lobbyist-objc-Prefix.pch";
+				INFOPLIST_FILE = "lobbyist-objcTests/lobbyist-objcTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		55FCF90C17F5385A0059B937 /* Build configuration list for PBXProject "lobbyist-objc" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				55FCF93217F5385A0059B937 /* Debug */,
+				55FCF93317F5385A0059B937 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		55FCF93417F5385A0059B937 /* Build configuration list for PBXNativeTarget "lobbyist-objc" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				55FCF93517F5385A0059B937 /* Debug */,
+				55FCF93617F5385A0059B937 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		55FCF93717F5385A0059B937 /* Build configuration list for PBXNativeTarget "lobbyist-objcTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				55FCF93817F5385A0059B937 /* Debug */,
+				55FCF93917F5385A0059B937 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 55FCF90917F5385A0059B937 /* Project object */;
+}
