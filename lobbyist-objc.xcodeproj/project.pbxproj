@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		55797E8B17F8A0E3008FBFF5 /* LBase.m in Sources */ = {isa = PBXBuildFile; fileRef = 55797E8A17F8A0E3008FBFF5 /* LBase.m */; };
+		55797E8E17F8A320008FBFF5 /* LConnection.m in Sources */ = {isa = PBXBuildFile; fileRef = 55797E8D17F8A320008FBFF5 /* LConnection.m */; };
+		55797E9117F8A8A7008FBFF5 /* LApiRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = 55797E9017F8A8A7008FBFF5 /* LApiRequest.m */; };
 		55FCF91517F5385A0059B937 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 55FCF91417F5385A0059B937 /* Foundation.framework */; };
 		55FCF91A17F5385A0059B937 /* lobbyist_objc.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 55FCF91917F5385A0059B937 /* lobbyist_objc.h */; };
 		55FCF91C17F5385A0059B937 /* lobbyist_objc.m in Sources */ = {isa = PBXBuildFile; fileRef = 55FCF91B17F5385A0059B937 /* lobbyist_objc.m */; };
@@ -42,6 +45,12 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		55797E8917F8A0E3008FBFF5 /* LBase.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LBase.h; sourceTree = "<group>"; };
+		55797E8A17F8A0E3008FBFF5 /* LBase.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LBase.m; sourceTree = "<group>"; };
+		55797E8C17F8A320008FBFF5 /* LConnection.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LConnection.h; sourceTree = "<group>"; };
+		55797E8D17F8A320008FBFF5 /* LConnection.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LConnection.m; sourceTree = "<group>"; };
+		55797E8F17F8A8A7008FBFF5 /* LApiRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LApiRequest.h; sourceTree = "<group>"; };
+		55797E9017F8A8A7008FBFF5 /* LApiRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LApiRequest.m; sourceTree = "<group>"; };
 		55FCF91117F5385A0059B937 /* liblobbyist-objc.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "liblobbyist-objc.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		55FCF91417F5385A0059B937 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		55FCF91817F5385A0059B937 /* lobbyist-objc-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "lobbyist-objc-Prefix.pch"; sourceTree = "<group>"; };
@@ -113,6 +122,12 @@
 				55FCF91917F5385A0059B937 /* lobbyist_objc.h */,
 				55FCF91B17F5385A0059B937 /* lobbyist_objc.m */,
 				55FCF91717F5385A0059B937 /* Supporting Files */,
+				55797E8917F8A0E3008FBFF5 /* LBase.h */,
+				55797E8A17F8A0E3008FBFF5 /* LBase.m */,
+				55797E8C17F8A320008FBFF5 /* LConnection.h */,
+				55797E8D17F8A320008FBFF5 /* LConnection.m */,
+				55797E8F17F8A8A7008FBFF5 /* LApiRequest.h */,
+				55797E9017F8A8A7008FBFF5 /* LApiRequest.m */,
 			);
 			path = "lobbyist-objc";
 			sourceTree = "<group>";
@@ -224,6 +239,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				55797E9117F8A8A7008FBFF5 /* LApiRequest.m in Sources */,
+				55797E8B17F8A0E3008FBFF5 /* LBase.m in Sources */,
+				55797E8E17F8A320008FBFF5 /* LConnection.m in Sources */,
 				55FCF91C17F5385A0059B937 /* lobbyist_objc.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -409,6 +427,7 @@
 				55FCF93617F5385A0059B937 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		55FCF93717F5385A0059B937 /* Build configuration list for PBXNativeTarget "lobbyist-objcTests" */ = {
 			isa = XCConfigurationList;
@@ -417,6 +436,7 @@
 				55FCF93917F5385A0059B937 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
