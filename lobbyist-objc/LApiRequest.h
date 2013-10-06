@@ -7,12 +7,11 @@
 //
 
 #import <Foundation/Foundation.h>
+#import "Lobbyist.h"
 
 @interface LApiRequest : NSMutableURLRequest {}
 
-+(id)requestWithURL:(NSURL*)url method:(NSString*)method formParameters:(NSDictionary*)params;
--(id)initWithURL:(NSURL*)url method:(NSString*)method formParameters:(NSDictionary*)params;
-
--(void)setFormParameters:(NSDictionary*)params;
++(id)requestWithURL:(NSURL*)url method:(NSString*)method formParameters:(NSMutableDictionary*)params;
+-(id)initWithURL:(NSURL*)url method:(NSString*)method formParameters:(NSMutableDictionary*)params;
 
 @end

@@ -11,8 +11,8 @@
 		55797E8E17F8A320008FBFF5 /* LConnection.m in Sources */ = {isa = PBXBuildFile; fileRef = 55797E8D17F8A320008FBFF5 /* LConnection.m */; };
 		55797E9117F8A8A7008FBFF5 /* LApiRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = 55797E9017F8A8A7008FBFF5 /* LApiRequest.m */; };
 		55FCF91517F5385A0059B937 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 55FCF91417F5385A0059B937 /* Foundation.framework */; };
-		55FCF91A17F5385A0059B937 /* lobbyist_objc.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 55FCF91917F5385A0059B937 /* lobbyist_objc.h */; };
-		55FCF91C17F5385A0059B937 /* lobbyist_objc.m in Sources */ = {isa = PBXBuildFile; fileRef = 55FCF91B17F5385A0059B937 /* lobbyist_objc.m */; };
+		55FCF91A17F5385A0059B937 /* Lobbyist.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 55FCF91917F5385A0059B937 /* Lobbyist.h */; };
+		55FCF91C17F5385A0059B937 /* Lobbyist.m in Sources */ = {isa = PBXBuildFile; fileRef = 55FCF91B17F5385A0059B937 /* Lobbyist.m */; };
 		55FCF92317F5385A0059B937 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 55FCF92217F5385A0059B937 /* XCTest.framework */; };
 		55FCF92417F5385A0059B937 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 55FCF91417F5385A0059B937 /* Foundation.framework */; };
 		55FCF92617F5385A0059B937 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 55FCF92517F5385A0059B937 /* UIKit.framework */; };
@@ -38,7 +38,7 @@
 			dstPath = "include/$(PRODUCT_NAME)";
 			dstSubfolderSpec = 16;
 			files = (
-				55FCF91A17F5385A0059B937 /* lobbyist_objc.h in CopyFiles */,
+				55FCF91A17F5385A0059B937 /* Lobbyist.h in CopyFiles */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -54,8 +54,8 @@
 		55FCF91117F5385A0059B937 /* liblobbyist-objc.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "liblobbyist-objc.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		55FCF91417F5385A0059B937 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		55FCF91817F5385A0059B937 /* lobbyist-objc-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "lobbyist-objc-Prefix.pch"; sourceTree = "<group>"; };
-		55FCF91917F5385A0059B937 /* lobbyist_objc.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = lobbyist_objc.h; sourceTree = "<group>"; };
-		55FCF91B17F5385A0059B937 /* lobbyist_objc.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = lobbyist_objc.m; sourceTree = "<group>"; };
+		55FCF91917F5385A0059B937 /* Lobbyist.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Lobbyist.h; sourceTree = "<group>"; };
+		55FCF91B17F5385A0059B937 /* Lobbyist.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Lobbyist.m; sourceTree = "<group>"; };
 		55FCF92117F5385A0059B937 /* lobbyist-objcTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "lobbyist-objcTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		55FCF92217F5385A0059B937 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
 		55FCF92517F5385A0059B937 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
@@ -119,8 +119,8 @@
 		55FCF91617F5385A0059B937 /* lobbyist-objc */ = {
 			isa = PBXGroup;
 			children = (
-				55FCF91917F5385A0059B937 /* lobbyist_objc.h */,
-				55FCF91B17F5385A0059B937 /* lobbyist_objc.m */,
+				55FCF91917F5385A0059B937 /* Lobbyist.h */,
+				55FCF91B17F5385A0059B937 /* Lobbyist.m */,
 				55FCF91717F5385A0059B937 /* Supporting Files */,
 				55797E8917F8A0E3008FBFF5 /* LBase.h */,
 				55797E8A17F8A0E3008FBFF5 /* LBase.m */,
@@ -242,7 +242,7 @@
 				55797E9117F8A8A7008FBFF5 /* LApiRequest.m in Sources */,
 				55797E8B17F8A0E3008FBFF5 /* LBase.m in Sources */,
 				55797E8E17F8A320008FBFF5 /* LConnection.m in Sources */,
-				55FCF91C17F5385A0059B937 /* lobbyist_objc.m in Sources */,
+				55FCF91C17F5385A0059B937 /* Lobbyist.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
