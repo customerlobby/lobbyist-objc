@@ -41,6 +41,10 @@
             [self setHTTPBody:[body dataUsingEncoding:NSUTF8StringEncoding]];
             [self setValue:[NSString stringWithFormat:@"%lu", (unsigned long)[body length]] forKey:@"Content-Length"];
         }
+        else if ([method isEqualToString:@"get"])
+        {
+            
+        }
     }
     return self;
 }
@@ -88,9 +92,9 @@
         }
     }];
     
-    // TODO: CGI Escape the message.
+    NSString* result = [message stringByAddingPercentEscapesUsingEncoding:NSASCIIStringEncoding];
     
-    return message;
+    return result;
 }
 
 -(NSString*)stringifyDictionary:(NSMutableDictionary*)dictionary
