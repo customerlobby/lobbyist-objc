@@ -92,8 +92,6 @@
         }
     }];
     
-    NSString* result = [message stringByAddingPercentEscapesUsingEncoding:NSASCIIStringEncoding];
-    
     return result;
 }
 
